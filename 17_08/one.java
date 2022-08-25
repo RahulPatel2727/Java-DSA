@@ -2,18 +2,16 @@ import java.util.*;
 
 public class one{
     public static void main(String[] args) {
-        List<Integer> list=new ArrayList<>();
-        list.add(1);
-        list.add(0);
-        list.add(31);
-        list.add(14);
-        list.add(18);
-        list.add(10);
-        System.out.println(list);
-        Collections.sort(list);
-        System.out.println(list);
-        
-
+        int []arr={3,4,6,2,166,0,6,4};
+        int min=arr[0];
+        int index=0;
+        for(int i=0;i<arr.length;i++){
+            if(min>arr[i]){
+                min=arr[i];
+                index=i;
+            }
+        }
+        System.out.println(index);
 
         
     }
