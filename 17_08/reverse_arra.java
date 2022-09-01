@@ -9,6 +9,7 @@ public class reverse_arra {
         }
         for(int ii:arr)
             System.out.print(ii+" ");
+            // System.out.println();
     }
     
 }

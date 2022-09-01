@@ -2,17 +2,19 @@ import java.util.*;
 
 public class one{
     public static void main(String[] args) {
-        int []arr={3,4,6,2,166,0,6,4};
-        int min=arr[0];
-        int index=0;
-        for(int i=0;i<arr.length;i++){
-            if(min>arr[i]){
-                min=arr[i];
-                index=i;
+        // 
+        int n=47;
+        int lo=1,hi=n;
+        int ans=0;
+        while(lo<=hi){
+            int mid=(lo+hi)/2;
+            if(mid*mid<=n){
+                ans=mid;
+                lo=mid+1;
+            }
+            else{
+                hi=mid+1;
             }
         }
-        System.out.println(index);
-
-        
     }
 }
