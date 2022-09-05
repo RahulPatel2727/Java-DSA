@@ -7,7 +7,6 @@ public class recursion {
         if(i>n)
             return;
         name(n,i+1);
-        System.out.print(i+" ");
-        
+        System.out.print(i+" ");   
     }
 }
