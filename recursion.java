@@ -8,5 +8,6 @@ public class recursion {
             return;
         name(n,i+1);
         System.out.print(i+" ");
+        
     }
 }
