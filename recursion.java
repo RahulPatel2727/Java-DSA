@@ -6,6 +6,7 @@ public class recursion {
     private static int name(int n){
         if(n==1)
             return 1;
+
         return n*name(n-1);
     }
 }
